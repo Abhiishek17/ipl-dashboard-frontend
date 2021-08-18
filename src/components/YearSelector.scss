@@ -1,0 +1,14 @@
+    .YearSelector {
+        justify-self: end;
+        padding: 20px;
+        text-align: right;
+        /* & > ul can also be used, means child under the parent */
+        ul {
+            list-style-type: none;
+        }
+        
+        li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
